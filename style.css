@@ -1,0 +1,30 @@
+/* hero section design  */
+.hero{
+    min-height: 90vh;
+    background:linear-gradient(#449ee752, #1fa8f2), url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg) no-repeat center;
+    background-size: cover;
+}
+.products .card img{
+    width: 200px !important;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.products .card{
+    box-shadow: 0px 0px 10px #ededed;
+    border-bottom: 3px solid #1fa8f2 !important;
+}
+.cart-banner{
+    background: url(https://img.freepik.com/premium-photo/3d-render-smartphone-shopping-cart-isolated-blue-background-banner_387680-873.jpg) no-repeat center;
+    background-size: cover;
+}
+@media(max-width:576px){
+    .hero{
+        min-height: fit-content;
+    }
+    #single-product button{
+        width: 100% !important; 
+    }
+}
